@@ -6,13 +6,13 @@ var xml = null;
 //Global browser variable
 var xmlHttp = null;
 
-function init(){
-	//Create new xmlHttp object
+(function() {
+    	//Create new xmlHttp object
 	getXmlHttpObject();
 
 	//Read file
 	readFile("data.xml");
-}
+})();
 
 function getXmlHttpObject(){
 	try{
