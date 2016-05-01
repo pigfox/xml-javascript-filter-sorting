@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="Sortable, Filterable Table">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <h1>Programming Assignment</h1>
+    <h3>Instructions</h3>
+    <p>Complete this assignment using only the files supplied.
+    You are in charge of the user interface and the user experience. Create buttons (or other elements which accept
+        user interaction) that allow the user to perform the following functions:
+    </p>
+    <dl>
+        <dt>filtering</dt>
+        <dd>Allow the user to show only those rows in the table which match the filter applied</dd>
+
+        <dt>sorting</dt>
+        <dd>Allow the user to sort the table by the column specified (sorting by ascending only is fine).</dd>
+    </dl>
+
+    <p>You are to replace the body of the table &ndash; upon page load &ndash; with the contents of the XML file
+     which is part of this project. The XML file contains around 142 movies. So the table will contain about 142 movies (un-filtered).
+        You are to use pure (&quot;native&quot;) JavaScript. Do <strong>not</strong> use any external frameworks or libraries such as
+        jQuery, Angular, React, Backbone, Ember, Aurelia, Kendo, etc.
+        You are also encouraged to style the page to "look nicer". Any style changes should be done
+        by modifying the stylesheet included.
+        Here is a <strong>suggestion</strong> of steps you will need to take to complete this assignment
+    </p>
+    <ul>
+        <li>create a Git repository for this web project</li>
+        <li>push your newly initialized Git project to GitHub</li>
+        <li>give the page some basic styling (CSS)</li>
+        <li>make it so that the sample row(s) in the table are replaced with &quot;real&quot;data &dash; the contents of the XML file</li>
+        <li>create functions which provide for sorting and filtering the table of movies</li>
+        <li>test the buttons to make sure they alter the table as desired</li>
+        <li>make periodic commits to your Git repo as you progress</li>
+        <li>push your changes to GitHub</li>
+        <li>let us know when your project is ready for review</li>
+    </ul>
+
+    <h3>Table of Movies</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>title</th>
+                <th>Rating</th>
+                <th>Provider</th>
+                <th>Release Date</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr id="be2aed9e-e95c-410e-8e29-9d51ca0c5149">
+            <td>The Color Wheel</td>
+            <td></td>
+            <td>Oscilloscope</td>
+            <td>NR</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
