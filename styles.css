@@ -6,6 +6,17 @@ dt {
 	margin: 10px 0 0 10px;
 }
 
+table{
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+th{
+	background-color:#999;
+}
+td{
+	padding:3px;
+}
+
 .button{
   background-color: #fff;
   color:#000;
@@ -22,4 +33,8 @@ dt {
 	background-color: #000;
 	color:#fff;
 	border: 1px solid #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
 }
