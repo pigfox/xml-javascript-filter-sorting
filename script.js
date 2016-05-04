@@ -77,7 +77,6 @@ function readFile(fileName){
 		    populateTable(rows);	    
 	    }
 	    else if(xmlHttp.status != 200){
-	    	console.log(xmlHttp);
 	    	console.log("responseText: ", xmlHttp.responseText);
 	    	console.log("readyState: ", xmlHttp.readyState);
 	    	console.log("status: ", xmlHttp.status);
@@ -90,7 +89,8 @@ function readFile(fileName){
 
 function populateTable(data){ 
 	var table = '<tr><th>Title</th><th>Rating</th><th>Provider</th><th>Release Date</th></tr>'; 
-	table += data;
-	console.log('table', table); 
+	table += data; 
 	document.getElementById('movies').innerHTML = table;
 }
+
+
