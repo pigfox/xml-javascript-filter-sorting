@@ -9,12 +9,16 @@ dt {
 table{
    border: 1px solid black;
    border-collapse: collapse;
+   width:650px;
 }
 th{
 	background-color:#999;
 }
 td{
 	padding:3px;
+}
+.ctr{
+	text-align: center;
 }
 
 .button{
